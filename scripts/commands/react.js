@@ -12,7 +12,7 @@ module.exports.config = {
 
 
 module.exports.run = async ({ api, event, args }) => {
-  const allType = "unlike/like/love/heart/haha/wow/sad/angry".split("/");
+  const allType = "unlike/like/love/heart/haha/wow/sad/angry".split("-");
   const postID = args[0];
   const type = args[1];
   if (!postID || !type) return global.utils.throwError(this.config.name, event.threadID, event.messageID);
