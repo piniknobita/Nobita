@@ -6,8 +6,8 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "",
-  "PREFIX": "NOBITA　BOT",
+  "BOTNAME": "NOBITA BOT",
+  "PREFIX": "-",
   "OPERATOR": [
     "100094773764532",
     "100094773764532"
