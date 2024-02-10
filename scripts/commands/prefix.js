@@ -27,7 +27,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
       if (config.PREFIX == null) {
         return out(`𝚃𝚑𝚒𝚜 𝚒𝚜 𝚗𝚘𝚋𝚒𝚝𝚊 𝚌𝚑𝚊𝚝 𝚋𝚘𝚝 𝚙𝚛𝚎𝚏𝚒𝚡 : ${global.config.PREFIX}`)
       }
-      else return out(`bot prefix : ${global.config.PREFIX}`)
+      else return out(`𝚃𝚑𝚒𝚜 𝚒𝚜 𝚗𝚘𝚋𝚒𝚝𝚊 𝚌𝚑𝚊𝚝 𝚋𝚘𝚝 𝚙𝚛𝚎𝚏𝚒𝚡 : ${global.config.PREFIX}`)
     }
 
   });
